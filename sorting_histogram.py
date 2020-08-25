@@ -62,9 +62,6 @@ sorted_hist = {}
 # bigest value list
 values_in_order = []
 
-# counter variable
-another_counter = 0
-
 # loop through and find the biggest value for each key
 for key in hist:
         values_in_order.append(hist[key])
@@ -76,7 +73,7 @@ values_in_order.sort(reverse = True)
 values_in_order = values_in_order[:3]
 
 
-# need to append our dictionaries values to our sorted dictionary based off the sorted numbers in values in order
+# need to append our dictionaries values to our sorted dictionary based off the sorted numbers in values_in_order list
 for keys in hist:
     for numbers in values_in_order:
         if hist[keys] == numbers:
