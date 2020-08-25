@@ -24,9 +24,13 @@ while counter < 5:
     elif counter == 1: 
         # how you add a key and value to a dictionary
         phonebook_dict.update({'Kareem' : '938-489-1234'})
+        # can also do
+        # phonebook_dict['Kareem'] = "938-489-1234"
     elif counter == 2:
         # how you delete a key and value from a dictionary
         del phonebook_dict["Alice"]
+        # can also do this
+        # phonebook_dict.pop("Alice")
     elif counter == 3:
         # update a value for a specific key in a dictionary
         phonebook_dict["Bob"] = '968-345-2345'
