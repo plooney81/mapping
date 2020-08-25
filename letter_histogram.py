@@ -10,16 +10,11 @@ user_input = user_input.lower()
 # first we need our empty dictionary so we can add values
 letter_hist = {}
 
-# empty list
-list_of_char = []
+#sort user input
+user_input = sorted(user_input)
 
-# first we add all of the letters into a list
+# for loop that iterates over our sorted string
 for char in user_input:
-    list_of_char.append(char)
-# then we sort that list
-list_of_char = sorted(list_of_char)
-
-for char in list_of_char:
     # so if the char is already a key in the dictionary, then it adds onto the value
     if char in letter_hist:
         letter_hist[char] += 1
