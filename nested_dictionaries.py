@@ -33,5 +33,3 @@ print(f'\nHere is the email address of Jasmine: {ramit["friends"][0]["email"]}')
 
 # 4). gets the second of Jan's two interests
 print(f'\nHere is the second of Jan\'s two interests: {ramit["friends"][1]["interests"][1]}\n\n')
-
-# how to get the same answers from above, through looping:
