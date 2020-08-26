@@ -13,6 +13,7 @@ while True:
     except ValueError:
         break
 
+# go ahead and convert it to lower case
 user_input = user_input.lower()
 
 # counter var that counts the total times we have iterated over the string
